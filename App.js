@@ -1,16 +1,15 @@
 import React from 'react';
 import { View, Text } from 'react-native';
 
-const Welcome = () => {
+class ModuleInfo extends React.Component {
+    render() {
         return (
             <View>
                 <Text></Text>
-                    <Text>
-                        Welcome to C346 - Mobile App Development
-                    </Text>
-             </View>
-  );
-};
+                <Text>These are my modules this semester:</Text>
+            </View>
+        );
+    }
+}
 
-export default Welcome;
-
+export default ModuleInfo;
